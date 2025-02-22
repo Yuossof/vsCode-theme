@@ -6,67 +6,47 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "editor.cursorBlinking": "expand",
-    "workbench.settings.applyToAllProfiles": [
-        
-        
-    ],
-    "workbench.iconTheme": "material-icon-theme",
-
-    // تخصيص ألوان السمة
+    "workbench.settings.applyToAllProfiles": [],
+    "workbench.iconTheme": "vscode-great-icons",
     "workbench.colorCustomizations": {
-    
-        "editor.background": "#160a18",
-        "editor.foreground": "#e0e0e0", // لون النص
-        "activityBar.background": "#160a18", // شريط الأنشطة الجانبي
-        "sideBar.background": "#160a18", // الشريط الجانبي
-        "statusBar.background": "#190c1a", // شريط الحالة
-        "titleBar.activeBackground": "#110813", // شريط العنوان
-        "titleBar.inactiveBackground": "#1a0d1a", // شريط العنوان غير النشط
-        "panel.background": "#1b0e1d", // خلفية اللوحات السفلية
-        "editorGroupHeader.tabsBackground": "#1c0f1e", // خلفية تبويبات المحرر
-
-        // تخصيص شريط التبويبات
-        "tab.activeBackground": "#1c0f1e", // خلفية التبويبات النشطة
-        "tab.inactiveBackground": "#160b18", // خلفية التبويبات غير النشطة
-        "tab.activeBorder": "#8d8c8c", // حدود التبويبات النشطة
-
-        // تخصيص شريط الاقتراحات
-        "editorSuggestWidget.background": "#1c0f1e", // خلفية شريط الاقتراحات
-        "editorSuggestWidget.foreground": "#e0e0e0", // لون النص في شريط الاقتراحات
-        "editorSuggestWidget.selectedBackground": "#2a1528", // خلفية العنصر المحدد في شريط الاقتراحات
-
-        // تخصيص ألوان التمرير فوق الأيقونات والعناصر
-        "tab.hoverBackground": "#251427", // خلفية التبويبات عند تمرير الماوس عليها
-        "sideBar.hoverBackground": "#FFFF00", // خلفية الشريط الجانبي عند تمرير الماوس عليه
-        "sideBarSectionHeader.background": "#140e1d", // خلفية عنوان الأقسام في الشريط الجانبي عند التمرير عليه
-        "sideBar.foreground": "#cac7c7", // لون النص في الشريط الجانبي
-        "sideBarTitle.foreground": "#e0e0e0", // لون نص عنوان الشريط الجانبي
-
-        // تخصيص لون شريط البحث
-        "searchEditor.background": "#1c0f1e", // خلفية شريط البحث
-        "searchEditor.foreground": "#e0e0e0", // لون النص في شريط البحث
-        "searchEditor.resultMatchBackground": "#2a1528", // خلفية المطابقة في نتائج البحث
-        "searchEditor.queryBackground": "#2a1528", // خلفية استعلام البحث
-
-        // تخصيص لون الخلفية في الملفات في شريط Explorer عند التمرير فوقها
-        "list.hoverBackground": "#222235", // خلفية العناصر في شريط Explorer عند تمرير الماوس فوقها
-        "list.activeSelectionBackground": "#222235", // خلفية العنصر النشط في شريط Explorer
-        "list.inactiveSelectionBackground": "#1a1a29", // خلفية العنصر غير النشط في شريط Explorer
-
-        // تخصيص لون شريط الأدوات العلوي
-        "editorWidget.background": "#1d111f", // خلفية شريط الأدوات العلوي (مثل شريط البحث)
-        "editorWidget.foreground": "#e0e0e0", // لون النص في شريط الأدوات العلوي
-        "editorWidget.border": "#2a1528", // حدود شريط الأدوات العلوي
-
-        // تخصيص خلفية قائمة القوائم العلوية بالكامل
-        "menu.background": "#1b0d1d", // خلفية قائمة القوائم العلوية
-        "menu.foreground": "#cac7c7", // لون النص في قائمة القوائم العلوية
-        "editor.selectionBackground": "#7a817728", // لون خلفية التحديد (أصفر)
-        "editor.selectionHighlightBackground": "#6b51515d", // لون خلفية التحديد البارز
-        "editor.findMatchBackground": "#ad9e9e33", // لون خلفية تطابق البحث
-        "editor.findMatchHighlightBackground": "#7c2d2d15", // لون خلفية تطابق البحث البارز
-        "editor.selectionHighlightBorder": "#797960", // لون الحدود عند الضغط على سطر كود
-        "editor.lineHighlightBorder": "#271729" // لون الشريط العمودي بجانب السطر الحالي
+        "editor.background": "#0a0510",
+        "editor.foreground": "#c8c8c8",
+        "activityBar.background": "#0a0510",
+        "sideBar.background": "#0b0612",
+        "statusBar.background": "#0d0715",
+        "titleBar.activeBackground": "#0b0510",
+        "titleBar.inactiveBackground": "#120814",
+        "panel.background": "#14081a",
+        "editorGroupHeader.tabsBackground": "#15091b",
+        "tab.activeBackground": "#15091b",
+        "tab.inactiveBackground": "#0a0510",
+        "tab.activeBorder": "#6c6b6b",
+        "editorSuggestWidget.background": "#15091b",
+        "editorSuggestWidget.foreground": "#c8c8c8",
+        "editorSuggestWidget.selectedBackground": "#1d0e1f",
+        "tab.hoverBackground": "#2a1b30",
+        "sideBar.hoverBackground": "#8a5a00",
+        "sideBarSectionHeader.background": "#0c0712",
+        "sideBar.foreground": "#a8a5a5",
+        "sideBarTitle.foreground": "#c8c8c8",
+        "searchEditor.background": "#15091b",
+        "searchEditor.foreground": "#c8c8c8",
+        "searchEditor.resultMatchBackground": "#1d0e1f",
+        "searchEditor.queryBackground": "#1d0e1f",
+        "list.hoverBackground": "#2a1b30",
+        "list.activeSelectionBackground": "#2a1b30",
+        "list.inactiveSelectionBackground": "#101021",
+        "editorWidget.background": "#160b1c",
+        "editorWidget.foreground": "#c8c8c8",
+        "editorWidget.border": "#1d0e1f",
+        "menu.background": "#14081a",
+        "menu.foreground": "#a8a5a5",
+        "editor.selectionBackground": "#5a616520",
+        "editor.selectionHighlightBackground": "#4e3e3e50",
+        "editor.findMatchBackground": "#8a7c7c28",
+        "editor.findMatchHighlightBackground": "#5a222212",
+        "editor.selectionHighlightBorder": "#5e5e45",
+        "editor.lineHighlightBorder": "#1c0d20"
     },
     "editor.tokenColorCustomizations": {
         "textMateRules": [
@@ -77,7 +57,7 @@
                     "comment.block.documentation"
                 ],
                 "settings": {
-                    "foreground": "#d6cdcf77" // لون التعليقات
+                    "foreground": "#a89d9f65"
                 }
             },
             {
@@ -88,25 +68,19 @@
                     "string.quoted.single"
                 ],
                 "settings": {
-                    "foreground": "#9e9393" // لون النصوص داخل علامات الاقتباس 
+                    "foreground": "#7b7070"
                 }
             }
         ]
     },
-    "json.schemas": [
-        
-    
-    
-    
-        
-        
-        
-    ],
+    "json.schemas": [],
     "[typescriptreact]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "[typescript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
-    "editor.fontSize": 17.5
+    "window.zoomLevel": 0.6,
+    "window.menuBarVisibility": "toggle",
+    "editor.fontSize": 13.8
 }
